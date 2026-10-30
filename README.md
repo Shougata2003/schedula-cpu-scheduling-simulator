@@ -1,16 +1,129 @@
-# React + Vite
+# SCHEDULA — CPU Scheduling Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**An Interactive Operating Systems Laboratory**
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://schedula-cpu-scheduling-simulator.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Shougata2003/schedula-cpu-scheduling-simulator)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Schedula is an interactive CPU Scheduling Simulator developed using React and JavaScript. It helps students understand, visualize, analyze, and compare different CPU scheduling algorithms through an interactive dashboard.
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[Launch Schedula — CPU Scheduling Simulator](https://schedula-cpu-scheduling-simulator.vercel.app/)**
 
-## Expanding the Oxlint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Interactive dashboard for CPU scheduling simulation.
+- Process management with arrival time, burst time, and priority.
+- Gantt chart visualization of process execution.
+- Performance analysis and scheduling metrics.
+- Algorithm comparison workspace.
+- Simulation controls and configurable scheduling parameters.
+
+## 🧠 Supported Scheduling Algorithms
+
+| Algorithm | Description |
+|---|---|
+| FCFS | First Come First Serve |
+| SJF | Shortest Job First |
+| SRTF | Shortest Remaining Time First |
+| RR | Round Robin |
+| Priority | Priority-Based Scheduling |
+
+**Priority convention:** A smaller priority number represents a higher priority.
+
+## 🛠️ Technology Stack
+
+- React
+- JavaScript
+- Vite
+- HTML5
+- CSS3
+- Git and GitHub
+- Vercel
+
+## 💻 Run Locally
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/Shougata2003/schedula-cpu-scheduling-simulator.git
+```
+
+```bash
+cd schedula-cpu-scheduling-simulator
+```
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal, usually:
+
+`http://localhost:5173/`
+
+### Production Build
+
+```bash
+npm run build
+```
+
+## 📂 Project Structure
+
+```text
+schedula/
+├── public/
+├── src/
+│   ├── algorithms/
+│   │   ├── scheduling.js
+│   │   └── testScheduling.js
+│   ├── assets/
+│   ├── components/
+│   │   └── AlgorithmComparison.jsx
+│   ├── hooks/
+│   │   └── useSimulation.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🎯 Project Objectives
+
+1. Understand fundamental CPU scheduling algorithms.
+2. Visualize process execution and scheduling order.
+3. Analyze scheduling performance.
+4. Compare different scheduling strategies.
+5. Develop practical knowledge of Operating Systems concepts.
+
+## 🎓 Academic Information
+
+**Project:** Schedula — CPU Scheduling Simulator  
+**Subject:** Operating Systems  
+**Department:** Computer Science & Engineering  
+**Institution:** B. P. Poddar Institute of Management & Technology  
+
+## 🌐 Project Links
+
+- **Live Application:** https://schedula-cpu-scheduling-simulator.vercel.app/
+- **Source Code:** https://github.com/Shougata2003/schedula-cpu-scheduling-simulator
+
+---
+
+*Developed as an interactive learning project for understanding CPU scheduling concepts in Operating Systems.*
